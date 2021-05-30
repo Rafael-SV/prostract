@@ -1,0 +1,3 @@
+[submodule "externals/pdbfixer"]
+	path = externals/pdbfixer
+	url = git://github.com/Rafael-SV/pdbfixer
