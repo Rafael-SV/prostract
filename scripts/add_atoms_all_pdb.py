@@ -58,7 +58,6 @@ for pdb_name in directory_content:
     output_file_name = str('fixed_' + pdb_name)
     with open(output_file_name, 'w') as output_pdb:
         PDBFile.writeFile(fix_pdb.topology, fix_pdb.positions, output_pdb)
-    break
 
 with open('pdb_name_and_number_missing_atoms_dict.pkl', 'wb') as f:
     pickle.dump(missing_atom_dict, f)
